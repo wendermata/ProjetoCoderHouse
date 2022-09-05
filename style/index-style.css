@@ -1,10 +1,14 @@
-.conteudo {
-    
-}
 
 .conteudo img {
-    width: 99vw;
+    width: 100%;
     height: 40vh;
+}
+
+@media screen and (min-width: 600px) {
+    .conteudo img {
+        width: 100%;
+        height: 40vh;
+    }
 }
 
 .conteudo__titulo {
