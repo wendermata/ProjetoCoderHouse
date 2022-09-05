@@ -1,81 +1,72 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+html body {
     margin: 0;
-    background-color: lightslategray;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: lightslategray;
 }
 
-footer {
-    text-align: center;
-    font-size: small;
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-areas: "header header"
+        "main main"
+        "footer footer";
+    align-content: center;
 }
 
-a:link {
-    color: black
-}
-
-a:visited {
-    color: black
-}
-
-a:hover {
-    color: white
-}
-
-a:active {
-    color: black
-}
-
-td a {
-    text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-tr .item-home {
-    padding-left: 200px;
-}
-
-tr .logo {
-    padding-left: 50px;
-    padding-top: 10px;
-    padding-right: 100px;
-}
-
-tr .itens {
-    padding-left: 200px;
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
 
 .menu {
-    background-color: lightslategray;
+    display: flex;
 }
 
-.banner {
-    width: 1920px;
-    height: 500px;
-    margin: 0;
+.menu li {
+    margin: 40px 60px 0px 20px;
 }
 
-body .text-presentation {
-    margin: 0;
-    border: 5px solid dimgray;
-    padding-left: 50px;
-    padding-right: 50px;
-    color: aliceblue;
-    background-color: #000000;
+.menu li a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
 }
 
-table tr td h3{
-    text-align: center;
+.menu li a:hover {
+    color: yellow;
 }
 
-table.players tr td {
-    padding-right: 20px;
-}
 
-table.sponsors tr td img {
+.flex-container img {
+    margin: 5px 50px 2px 30px;
+    height: 120px;
     width: 150px;
-    height: 150px;
 }
-div.form{
-    border: 3px solid white;
-    padding-right: 1700px;
+
+header {
+    background: black;
+    grid-area: header;
+
+}
+
+main {
+    background: rgb(119, 180, 250);
+    grid-area: main;
+    overflow: auto;
+
+}
+
+footer {
+    background: black;
+    grid-area: footer;
+    font-size: x-small;
+    text-align: center;
+    color: white;
+
 }

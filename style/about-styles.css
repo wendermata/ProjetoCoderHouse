@@ -1,0 +1,16 @@
+.conteudo {
+    padding: 5px 30px 5px 30px;
+}
+
+.conteudo img {
+    width: 99vw;
+    height: 40vh;
+}
+
+.conteudo__titulo {
+}
+
+.conteudo__texto {
+    font-size: 1rem;
+    color: black;
+}
