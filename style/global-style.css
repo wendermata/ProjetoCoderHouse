@@ -130,7 +130,7 @@ footer {
         color: black;
     }
 
-    #checkbox_toggle:checked ~ .nav-links {
+    #checkbox_toggle:checked~.nav-links {
         display: block;
         background-color: black;
         text-align: center;
@@ -141,6 +141,7 @@ footer {
         display: block;
         position: fixed
     }
+
     .nav-links {
         display: none;
     }
