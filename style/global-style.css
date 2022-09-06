@@ -14,8 +14,8 @@ html body {
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 20vh 70vh 10vh;
     grid-template-areas: "header header header"
-                            "main main main"
-                         "footer footer footer";
+        "main main main"
+        "footer footer footer";
     align-content: center;
 }
 
@@ -58,25 +58,19 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    list-style:none;
+    list-style: none;
     background-color: black;
     color: white;
-   }
-   #menuresponsivo {
-    display: none;
-   }
+}
 
-   input[type=checkbox]{
-    display: none;
-   } 
 
-   .hamburger {
+.hamburger {
     display: none;
     font-size: 24px;
-    user-select: bl;
-   }
+    user-select: all;
+}
 
-   .menu {
+.nav-links {
     padding: 18px;
     display: flex;
     box-sizing: border-box;
@@ -86,27 +80,28 @@ footer {
     margin-bottom: 20px;
 }
 
-.menu li {
+.nav-links li {
     display: flex;
     margin: 40px 60px 0px 20px;
     flex-wrap: wrap;
 }
 
-.menu li a {
+.nav-links li a {
     align-items: center;
     padding: 18px;
-    border-radius: 10px ;
+    border-radius: 10px;
     box-sizing: border-box;
     text-decoration: none;
     color: white;
 }
 
-.menu li:hover {
+.nav-links li:hover {
     background-color: black;
     border-radius: 10px;
-    transition: 0.3s ease; }
+    transition: 0.3s ease;
+}
 
-.menu a:hover {
+.nav-links a:hover {
     background-color: yellow;
     color: black;
 
@@ -115,37 +110,38 @@ footer {
 @media screen and (max-width: 768px) {
     .container {
         grid-template-areas: "header header"
-                            "main main"
-                            "main main"
-                            "footer footer"
-        }
-    #menuresponsivo {
+            "main main"
+            "main main"
+            "footer footer"
+    }
+
+    .menu {
         display: block;
-        }
-       .menu {
-        display: none;
         position: sticky;
-        background-color:black;
+        background-color: black;
         text-align: center;
         padding: 12px;
-       }
-       
-       .menu li:hover {
+    }
+
+    .menu li:hover {
         display: inline-block;
-        background-color:yellow;
+        background-color: yellow;
         transition: 0.3s ease;
-        color:black;
-       }
+        color: black;
+    }
 
-       input[type=checkbox]:checked ~ .menu{
-    
-        position: fixed;
-       }
+    #checkbox_toggle:checked ~ .nav-links {
+        display: block;
+        background-color: black;
+        text-align: center;
+        padding: 12px;
+    }
 
-       .hamburger {
+    .hamburger {
         display: block;
         position: fixed
-       }
-
+    }
+    .nav-links {
+        display: none;
+    }
 }
-
