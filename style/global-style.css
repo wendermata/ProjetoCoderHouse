@@ -1,148 +1,90 @@
-html body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    font-size: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: lightslategray;
+html body .card{
+    background: linear-gradient(rgba(233, 233, 7, 0.884), black, rgba(77, 5, 95, 0.945));
+    margin: none;
+    padding: none;
 }
 
-.container {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 20vh 70vh 10vh;
-    grid-template-areas: "header header header"
-        "main main main"
-        "footer footer footer";
-    align-content: center;
+.card-header {
+    padding: 0%;
 }
 
-header {
+.card-header .row{
     background: black;
-    grid-area: header;
-
+    margin: none;
+    padding: none;
 }
 
-main {
-    background: rgb(119, 180, 250);
-    grid-area: main;
-    overflow: auto;
-
+.imglogo {
+ width: 25vw;
+ height: 25vh;
+ justify-content: start;
 }
 
-footer {
+.navbar navbar-expand-lg navbar-expand-md {
     background: black;
-    grid-area: footer;
-    font-size: x-small;
-    text-align: center;
-    color: white;
+}
+
+.navbar-collapse {
+    background: black;
+}
+
+.navbar-nav .nav-link {
+    color: yellow;
 
 }
 
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
+
+.w-100 {
+    width: 100vw;
+    height: 60vh;
 }
 
-.flex-container img {
-    margin: 5px 50px 2px 30px;
-    height: 120px;
-    width: 150px;
-}
-
-.navbar {
-    display: flex;
+.card-conteudo{
     align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    list-style: none;
-    background-color: black;
-    color: white;
+    margin: 0px 30px 5px 40px;
 }
 
+.card-title {
+font-size: 2rem;
+color:whitesmoke;
+padding-top: 12px;
 
-.hamburger {
-    display: none;
-    font-size: 24px;
-    user-select: all;
 }
 
-.nav-links {
-    padding: 18px;
-    display: flex;
-    box-sizing: border-box;
-    justify-content: center;
-    list-style: none;
+.card-text {
+    font-size: 1.5rem;
+    color:whitesmoke;
+}
+
+.card-footer{
+    font-size:xx-small;
+    color:whitesmoke;
     align-items: center;
-    margin-bottom: 20px;
 }
 
-.nav-links li {
-    display: flex;
-    margin: 40px 60px 0px 20px;
-    flex-wrap: wrap;
-}
 
-.nav-links li a {
-    align-items: center;
-    padding: 18px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    text-decoration: none;
-    color: white;
-}
 
-.nav-links li:hover {
-    background-color: black;
-    border-radius: 10px;
-    transition: 0.3s ease;
-}
-
-.nav-links a:hover {
-    background-color: yellow;
-    color: black;
-
-}
 
 @media screen and (max-width: 768px) {
-    .container {
-        grid-template-areas: "header header"
-            "main main"
-            "main main"
-            "footer footer"
+    .card-header .row {
+        justify-content: center;
     }
 
-    .menu {
-        display: block;
-        position: sticky;
-        background-color: black;
-        text-align: center;
-        padding: 12px;
+    .rounded {
+        justify-content: center;
+        width: 40vw;
+        height: 35vh;
+        padding: 3px 30px 3px 30px;
+        margin: 0px;
     }
 
-    .menu li:hover {
-        display: inline-block;
-        background-color: yellow;
-        transition: 0.3s ease;
-        color: black;
+    .navbar-nav .nav-link {
+        color: yellow;
+        
     }
-
-    #checkbox_toggle:checked~.nav-links {
-        display: block;
-        background-color: black;
-        text-align: center;
-        padding: 12px;
-    }
-
-    .hamburger {
-        display: block;
-        position: fixed
-    }
-
-    .nav-links {
-        display: none;
+    .navbar-toggler-icon {
+background: yellow;
     }
 }
+
+
