@@ -17,11 +17,10 @@ html body .card {
 .imglogo {
     width: 25vw;
     height: 25vh;
-    justify-content: start;
 }
 
-.navbar navbar-expand-lg navbar-expand-md {
-    background: black;
+.navbar-nav{
+    justify-content: space-around;
 }
 
 .navbar-collapse {
@@ -32,7 +31,6 @@ html body .card {
     color: yellow;
 
 }
-
 
 .w-100 {
     width: 100vw;
@@ -62,10 +60,8 @@ html body .card {
     align-items: center;
 }
 
-
-
-
 @media screen and (max-width: 768px) {
+    
     .card-header .row {
         justify-content: center;
     }
