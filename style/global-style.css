@@ -1,4 +1,4 @@
-html body .card{
+html body .card {
     background: linear-gradient(rgba(233, 233, 7, 0.884), black, rgba(77, 5, 95, 0.945));
     margin: none;
     padding: none;
@@ -8,16 +8,16 @@ html body .card{
     padding: 0%;
 }
 
-.card-header .row{
+.card-header .row {
     background: black;
     margin: none;
     padding: none;
 }
 
 .imglogo {
- width: 25vw;
- height: 25vh;
- justify-content: start;
+    width: 25vw;
+    height: 25vh;
+    justify-content: start;
 }
 
 .navbar navbar-expand-lg navbar-expand-md {
@@ -39,26 +39,26 @@ html body .card{
     height: 60vh;
 }
 
-.card-conteudo{
+.card-conteudo {
     align-items: center;
     margin: 0px 30px 5px 40px;
 }
 
 .card-title {
-font-size: 2rem;
-color:whitesmoke;
-padding-top: 12px;
+    font-size: 2rem;
+    color: whitesmoke;
+    padding-top: 12px;
 
 }
 
 .card-text {
     font-size: 1.5rem;
-    color:whitesmoke;
+    color: whitesmoke;
 }
 
-.card-footer{
-    font-size:xx-small;
-    color:whitesmoke;
+.card-footer {
+    font-size: xx-small;
+    color: whitesmoke;
     align-items: center;
 }
 
@@ -80,11 +80,10 @@ padding-top: 12px;
 
     .navbar-nav .nav-link {
         color: yellow;
-        
+
     }
+
     .navbar-toggler-icon {
-background: yellow;
+        background: yellow;
     }
 }
-
-
