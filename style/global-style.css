@@ -1,56 +1,89 @@
 html body .card {
     background: linear-gradient(rgba(233, 233, 7, 0.884), black);
-    margin: none;
-    padding: none;
+    font-family: 'Combo', cursive;
+    font-family: 'Orbitron', sans-serif;
 }
 
-.card-header {
-    padding: 0%;
+body {
+    margin: none;
+    padding: none;
+
+}
+
+.container-fluid {
+    padding:0%;
 }
 
 .card-header .row {
     background: black;
-    margin: none;
-    padding: none;
+    margin:0%;
+    padding:0%;
+    height: 30vh;
+
+}
+
+.card-header{
+    padding: 0%;
 }
 
 .imglogo {
-    width: 15vw;
-    height: 15vh;
+    width: 170px;
+    height: 150px;
+    padding-left: 20px;
 }
 
-.navbar-nav{
+.row{
+ justify-content: center;
+ align-items: center;
+}
+.navbar-nav {
     justify-content: space-around;
 }
 
-.navbar-collapse {
+.navbar-collapse .navbarNavAltMarkup {
     background: black;
+    padding: 0%;
 }
 
 .navbar-nav .nav-link {
     color: yellow;
-
+    font-size:1.3rem;
+    padding: 16px 25px 16px 25px;
+    box-sizing: border-box;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 5px;
 }
 
-.w-100 {
+.navbar-nav col-8 {
+    width: 50%;
+}
+
+.carousel-item {
     width: 100vw;
-    height: 60vh;
+    height: 100vh;
+}
+ 
+img .d-block.w-100{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .card-conteudo {
     align-items: center;
     margin: 0px 30px 5px 40px;
+    font-size:1rem;
 }
 
 .card-title {
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: whitesmoke;
     padding-top: 12px;
 
 }
 
 .card-text {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: whitesmoke;
 }
 
@@ -60,18 +93,16 @@ html body .card {
     text-align: center;
 }
 
+@media screen and (min-width: 992px) {
+#conteudoMenu .navbar-collapse {
+    display:block;
+}
+}
+
 @media screen and (max-width: 768px) {
-    
+
     .card-header .row {
         justify-content: center;
-    }
-
-    .rounded {
-        justify-content: center;
-        width: 40vw;
-        height: 35vh;
-        padding: 3px 30px 3px 30px;
-        margin: 0px;
     }
 
     .navbar-nav .nav-link {
@@ -81,4 +112,10 @@ html body .card {
     .navbar-toggler-icon {
         background: yellow;
     }
+
+    .carousel-item {
+        width: 100vw;
+        height: 100vh;
+    }
+     
 }
