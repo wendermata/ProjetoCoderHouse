@@ -87,7 +87,14 @@ img .d-block.w-100{
     color: whitesmoke;
 }
 
+.card-conteudo p{
+    font-size: 1rem;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .card-footer footer p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: xx-small;
     color: yellow;
     text-align: center;
