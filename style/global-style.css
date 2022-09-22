@@ -60,10 +60,10 @@ body {
     width: 50%;
 }
 
-.carousel-item {
-    width: 100vw;
-    height: 100vh;
-}
+.carousel-item > img {
+     width: 100vw; 
+     height: 600px; 
+    }
 
 img .d-block.w-100 {
     padding-left: 20px;
@@ -129,14 +129,15 @@ img .d-block.w-100 {
     .card-header .row {
         justify-content: center;
     }
+    .conteiner-fluid .navbar-brand{
+        position: static;
+    }
+    .navbar-nav col-8 {
+        width: 50%;
+    }
 
     .navbar-nav .nav-link {
         color: yellow;
-    }
-
-    .carousel-item {
-        width: 100vw;
-        height: 100vh;
     }
 
     .card-header {
@@ -146,5 +147,8 @@ img .d-block.w-100 {
     .header-mobile {
         display: "";
     }
-
+    .carousel-item > img {
+        width: 100vw; 
+        height: 500px; 
+    }
 }
