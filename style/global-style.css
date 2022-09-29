@@ -1,3 +1,4 @@
+
 html body .card {
     background: linear-gradient(rgba(233, 233, 7, 0.884), black);
     font-family: 'Combo', cursive;
@@ -88,11 +89,6 @@ img .d-block.w-100 {
     color: whitesmoke;
 }
 
-.card-conteudo p {
-    font-size: 1rem;
-    color: whitesmoke;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 .card-footer footer p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
