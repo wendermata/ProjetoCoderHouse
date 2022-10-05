@@ -1,7 +1,134 @@
-.card-conteudo {
-    p {
-        font-size: 1rem;
-        color: whitesmoke;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    body {
+        margin: none;
+        padding: none;
+        background: linear-gradient(rgba(233, 233, 7, 0.884), black);
+        font-family: 'Combo', cursive;
+        font-family: 'Orbitron', sans-serif
     }
-}
+
+        .card-header {
+            display: block;
+            .row {
+                background: black;
+                margin: 0%;
+                padding: 0%;
+                height: 30vh;
+                justify-content: center;
+                align-items: center;
+            }    
+        }
+
+        
+        .navbar-collapse .navbarNavAltMarkup {
+            background: black;
+            padding: 0%;
+        }
+
+        .container-fluid {
+
+            .navbar-nav col-8{
+                justify-content: space-around;
+                width: 50%;
+                padding: 0%;
+            }
+
+            .nav-link {
+                color: yellow;
+                font-size: 1.3rem;
+                padding: 16px 25px 16px 25px;
+                box-sizing: border-box;
+                text-align: center;
+                white-space: nowrap;
+                margin-right: 5px;
+            }
+        }
+
+        .imglogo {
+            width: 170px;
+            height: 150px;
+            padding-left: 20px;
+        }
+
+        .carousel-item>img {
+
+            width: 100vw;
+            height: 600px;
+
+        }
+
+        .d-block.w-100 {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .card-conteudo {
+            align-items: center;
+            margin: 0px 30px 5px 40px;
+            font-size: 1rem;
+        }
+
+            .card-title {
+                font-size: 1.2rem;
+                color: whitesmoke;
+                padding-top: 12px;
+
+            }
+
+            .card-text {
+                font-size: 1rem;
+                color: whitesmoke;
+            }
+
+
+        .card-footer footer p {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: xx-small;
+            color: yellow;
+            text-align: center;
+        }
+
+        @media screen and (min-width: 769px) {
+            #conteudoMenu .navbar-collapse {
+                display: block;
+            }
+
+            .header-mobile {
+                display: none;
+            }
+
+            .card-header {
+                display: "";
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+
+            .card-header.row {
+                    justify-content: center;
+                }
+
+            .conteiner-fluid .navbar-brand {
+                position: static;
+            }
+
+            .navbar-nav col-8 {
+                width: 50%;
+            }
+
+            .navbar-nav.nav-link {
+                    color: yellow;
+                }
+
+            .card-header {
+                display:none;
+            }
+
+            .header-mobile {
+                display: "";
+            }
+
+            .carousel-item>img {
+                width: 100vw;
+                height: 500px;
+            }
+        }
