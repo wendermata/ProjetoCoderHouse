@@ -1,0 +1,23 @@
+{
+  "name": "projetocoderhouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wendermata/ProjetoCoderHouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wendermata/ProjetoCoderHouse/issues"
+  },
+  "homepage": "https://github.com/wendermata/ProjetoCoderHouse#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
