@@ -1,0 +1,26 @@
+@import '~styleglobal.scss';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body .bg-gradient card-header {
+    background-color: linear-gradient(rgba(233, 233, 7, 0.884), black);
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 360px) and (max-width: 768px) { 
+    .container-fluid-mobile{
+
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .container-fluid-display{
+
+    }
+}
+

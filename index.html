@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
+<!-- especifica a linguagem primaria da pagina -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="site para competição de jogos em equipe">
-    <meta name="keywords" content="game,competição,jogos,equipe">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- a title tag é exibida no título do resultado da busca, ajudando o usuario a encontrar aquilo que procura  -->
     <title>E-Sports-Pagina Inicial</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
+    <!-- define a descrição exibida nos resultados de pesquisa do Google -->
+    <meta name="description" content="Site para competição de jogos exclusivos em equipe">
+    <!-- determinadas palavras-chaves que ajudam os algoritmos a interpretar o conteúdo das páginas -->
+    <meta name="keywords" content="jogos, competição, equipe, campeonatos, gamer">
+    <!-- indexa a página inicial e todas as páginas nela referenciadas para poder serem visitadas -->
+    <meta name="robots" content="index,follow">
+    <!-- bootstrap/css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- bootstrap/javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- tipografia -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Combo&family=Orbitron:wght@500&display=swap" rel="stylesheet">
-    <link href="style/style.scss" rel="stylesheet">
-    <link href="style/global-style.css" rel="stylesheet">
-
+    <!-- paginas para estilização -->
+    <link href="css/styleglobal.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="card">
+    <div class="container-bg">
         <div class="card-header">
             <header class="row">
-                <div class="header-desktop">
-                    <nav class="navbar navbar-expand-lg navbar-expand-md" id="conteudoMenu"
-                        style="background-color: #00000000;">
-                        <img class="imglogo col-2" src="images/logotipo.png">
-                        <div class="col-2"></div>
-                        <div class="container-fluid">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-
-                                <div class="navbar-nav col-8">
-                                    <a class="nav-link" href="index.html">Home</a>
-                                    <a class="nav-link" href="aboutus.html">About Us</a>
-                                    <a class="nav-link" href="#">Team</a>
-                                    <a class="nav-link" href="#">Sponsors</a>
-                                    <a class="nav-link" href="#">Contact</a>
-                                </div>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
+                <div class="card-header">
+                    <div class="container-fluid-mobile">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logotipo.png" alt="logotipo" width="30" height="24">
+                
+                        
+                          </a>
+                      </div>
+                      <div class="container-fluid-display">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logotipo.png" alt="logotipo" width="30" height="24">
+                          </a>
+                      </div>
             </header>
+
+
+
+
+
+
+
+
+
+            
         </div>
         <div class="header-mobile">
             <nav class="navbar navbar-dark bg-dark static-top">
