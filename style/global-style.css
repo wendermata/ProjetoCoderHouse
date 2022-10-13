@@ -33,6 +33,27 @@ html body {
       html body .card .header-mobile nav .container-fluid {
         padding: 0%;
         background-color: black; }
+        html body .card .header-mobile nav .container-fluid .offcanvas .offcanvas-header {
+          background-color: yellow; }
+          html body .card .header-mobile nav .container-fluid .offcanvas .offcanvas-header .btn-close .btn-close-black {
+            margin-right: 20px; }
+          html body .card .header-mobile nav .container-fluid .offcanvas .offcanvas-header .offcanvas-title {
+            font-size: 2rem;
+            font-style: bold;
+            font: black; }
+        html body .card .header-mobile nav .container-fluid .offcanvas .offcanvas-body {
+          background-color: black; }
+          html body .card .header-mobile nav .container-fluid .offcanvas .offcanvas-body .navbar-nav {
+            font-size: 1.3rem; }
+            html body .card .header-mobile nav .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-link.active {
+              color: yellow; }
+        html body .card .header-mobile nav .container-fluid .offcanvas .navbar-nav .nav-item {
+          --bs-nav-link-padding-x: 1rem;
+          --bs-nav-link-padding-y: 1rem; }
+        html body .card .header-mobile nav .container-fluid .imglogo {
+          width: 170px;
+          height: 150px;
+          padding-left: 20px; }
     html body .card .card-main .carousel-item > img {
       width: 100vw;
       height: 600px;
