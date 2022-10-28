@@ -2,7 +2,7 @@ html body {
   margin: none;
   padding: none; }
   html body .card {
-    background: linear-gradient(rgba(242, 250, 19, 0.974), black);
+    background: linear-gradient(#ffc918, black);
     font-family: 'Combo', cursive;
     font-family: 'Orbitron', sans-serif; }
     html body .card .card-header {
@@ -21,7 +21,7 @@ html body {
         html body .card .card-header .row .header-desktop .navbar .container-fluid .navbar-collapse .navbar-nav {
           justify-content: space-around; }
           html body .card .card-header .row .header-desktop .navbar .container-fluid .navbar-collapse .navbar-nav .nav-link {
-            color: yellow;
+            color: #ffc918;
             font-size: 1.7rem;
             padding: 0;
             box-sizing: border-box;
@@ -34,7 +34,7 @@ html body {
         padding: 0%;
         background-color: black; }
         html body .card .header-mobile nav .container-fluid .offcanvas .offcanvas-header {
-          background-color: yellow; }
+          background-color: #ffc918; }
           html body .card .header-mobile nav .container-fluid .offcanvas .offcanvas-header .btn-close .btn-close-black {
             margin-right: 20px; }
           html body .card .header-mobile nav .container-fluid .offcanvas .offcanvas-header .offcanvas-title {
@@ -46,13 +46,13 @@ html body {
           html body .card .header-mobile nav .container-fluid .offcanvas .offcanvas-body .navbar-nav {
             font-size: 1.2rem; }
             html body .card .header-mobile nav .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-link.active {
-              color: yellow; }
+              color: #ffc918; }
         html body .card .header-mobile nav .container-fluid .offcanvas .navbar-nav .nav-item {
           --bs-nav-link-padding-x: 1rem;
           --bs-nav-link-padding-y: 1rem; }
         html body .card .header-mobile nav .container-fluid .imglogo {
-          width: 379px;
-          height: 167px;
+          width: 170px;
+          height: 150px;
           padding-left: 10px; }
     html body .card .card-main .carousel-item > img {
       width: 100vw;
@@ -64,21 +64,18 @@ html body {
       margin: 5px 40px 5px 40px; }
       html body .card .card-main .card-conteudo .card-title {
         font-size: 3.5rem;
-        font-display: center;
-        color: #1a3a94;
+        text-align: center;
         padding: 0;
-        display: block;
-        margin: 4% 25%; }
+        color: #ffc918;
+        display: block; }
       html body .card .card-main .card-conteudo .card-text {
-        font-size: 1.6rem;
-        line-height: 45px;
-        margin-bottom: 30px;
-        color: whitesmoke;
+        font-size: 1.3rem;
+        color: #ded7c0;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
     html body .card .card-footer footer p {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       font-size: small;
-      color: yellow;
+      color: #ffc918;
       text-align: center; }
   @media screen and (min-width: 769px) {
     html body #conteudoMenu .navbar-collapse {
@@ -95,7 +92,7 @@ html body {
     html body .navbar-nav col-8 {
       width: 50%; }
     html body .navbar-nav .nav-link {
-      color: yellow; }
+      color: #ffc918; }
     html body .card-header {
       display: none; }
     html body .header-mobile {
