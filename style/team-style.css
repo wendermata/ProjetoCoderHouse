@@ -1,3 +1,17 @@
-.card-main .container .row .col {
-  font-family: 'Orbitron', sans-serif;
-  color: aliceblue; }
+.card-main .card-conteudo .container {
+  color: #ded7c0;
+  font-weight: bolder; }
+  .card-main .card-conteudo .container .first .logo .nickname {
+    color: #ffc918; }
+  .card-main .card-conteudo .container .first .description {
+    line-height: 10px;
+    padding: 0;
+    margin-left: -7%;
+    color: black; }
+  .card-main .card-conteudo .container .second .logo {
+    color: black; }
+  .card-main .card-conteudo .container .second .description {
+    line-height: 10px;
+    padding: 0;
+    margin-left: -7%;
+    color: #ffc918; }
