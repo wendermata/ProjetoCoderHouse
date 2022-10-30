@@ -1,33 +1,45 @@
-.card-main {
-    .card-conteudo {
-        .container {
-            color: #ded7c0;
-            font-weight: bolder;
+$yellow:#ffc918;
+$white-text: #ded7c0;
 
-            .first {
-                .logo {
-                    .nickname {
-                        color: #ffc918;
+html {
+    body {
+        .card-main {
+            .card-conteudo {
+                .container {
+                    color: $white-text;
+                    font-weight: bolder;
+
+                    .first {
+                        .logo {
+                            .nickname {
+                                color: $yellow;
+                            }
+                        }
+
+                        .description {
+                            line-height: 10px;
+                            padding: 0;
+                            margin-left: -7%;
+                            color: black;
+                        }
+                    }
+
+                    .second {
+                        .logo {
+                            color: black;
+                        }
+
+                        .description {
+                            line-height: 10px;
+                            padding: 0;
+                            margin-left: -7%;
+                            color: $yellow;
+                        }
                     }
                 }
-                .description {
-                    line-height: 10px;
-                    padding: 0;
-                    margin-left: -7%;
-                    color: black;
-                }
-            }
-
-            .second {
-                .logo {
-                    color: black;
-                }
-                .description {
-                    line-height: 10px;
-                    padding: 0;
-                    margin-left: -7%;
-                    color: #ffc918;
-
+                .titulos{
+                    --bs-list-group-bg: "";
+                    margin: 0 auto;
                 }
             }
         }
