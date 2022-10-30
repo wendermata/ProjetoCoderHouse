@@ -5,6 +5,27 @@ html {
     body {
         .card-main {
             .card-conteudo {
+                h1 {
+                    display: inline;
+                    font-size: 3.5rem;
+                    text-align: center;
+                    padding: 0;
+                    margin: 20px 10px 30px 10px;
+                    color: #ffc918;
+                    display: block;
+                }
+    
+                @media screen and (max-width: 768px) {
+                    h1 {
+                        font-size: calc(35px + (8/1200) * 100 * 1vw);
+                        display: inline;
+                        text-align: center;
+                        padding-top: 150px;
+                        margin: 30x 10px 30px 10px;
+                        color: #ffc918;
+                        display: block;
+                    }
+                }
                 .container {
                     color: $white-text;
                     font-weight: bolder;
