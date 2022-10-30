@@ -110,13 +110,6 @@ html {
 
             .card-main {
 
-                .carousel-item>img {
-                    width: 100vw;
-                    height: 600px;
-                    padding-left: 40px;
-                    padding-right: 40px;
-                }
-
                 .card-conteudo {
                     align-items: center;
                     margin: 5px 40px 5px 40px;
@@ -188,15 +181,7 @@ html {
             .header-mobile {
                 display: "";
             }
-
-            .carousel-item>img {
-                width: 100vw;
-                height: 500px;
-                padding-top: 150px;
-                padding-left: 10px;
-                padding-right: 10px;
-            }
-            
+          
         }
 
     }

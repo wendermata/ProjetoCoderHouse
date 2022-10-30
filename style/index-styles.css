@@ -1,0 +1,13 @@
+html body .card-main .carousel-item > img {
+  width: 100vw;
+  height: 600px;
+  padding-left: 40px;
+  padding-right: 40px; }
+
+@media screen and (max-width: 768px) {
+  html body .carousel-item > img {
+    width: 100vw;
+    height: 500px;
+    padding-top: 150px;
+    padding-left: 10px;
+    padding-right: 10px; } }
