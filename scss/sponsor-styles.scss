@@ -1,26 +1,12 @@
 body {
     .card {
-        .card-header {}
-
-        .header-mobile {}
-
         .card-main {
             .card-conteudo {
                 h1 .card-title {
                     padding: 0;
                     margin-top: 150px;
                 }
-
-                .listaPatrocinadores {
-                    .row {
-                        align-items: center;
-                    }
-                }
-
-                p .card-text {}
             }
         }
-
-        .card-footer {}
     }
 }
