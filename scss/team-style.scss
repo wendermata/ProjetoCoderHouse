@@ -39,7 +39,11 @@ html {
                 }
                 .titulos{
                     --bs-list-group-bg: "";
+                    --bs-list-group-border-width: 0;
                     margin: 0 auto;
+                    li{
+                        color: white;
+                    }
                 }
             }
         }
