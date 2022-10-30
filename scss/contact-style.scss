@@ -1,0 +1,48 @@
+body{
+    .card-main{
+        .form{
+            display: block;
+            align-content: center;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: 'Orbitron', sans-serif;
+        h1{
+            font-size: 3.5rem;
+            text-align: center;
+            padding: 0;
+            margin: 20px 10px 20px 10px;
+            color: #ffc918;
+            display: block;
+        }
+        #formContato{
+            width: 500px;
+            padding: 1em;
+            margin:0 auto;
+            text-align: center;
+            border: 5px solid #ffc918;
+            border-radius: 1em;
+            font-weight: bolder;
+            font-size: 1.6rem;
+            color: black;
+
+            .nomeFormulario{
+                width: 400px;
+            }
+            .emailFormulario{                
+                width: 400px;
+            }
+            .mensagemFormulario{
+                width: 400px;
+            }
+            .button{
+                padding: 20px;
+                width: 400px;
+                button{
+                    color: #ffc918;
+                    background: black;
+                }
+            }
+        }
+    }
+    }
+}
