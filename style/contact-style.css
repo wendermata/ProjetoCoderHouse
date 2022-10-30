@@ -5,31 +5,52 @@ body .card-main .form {
   box-sizing: border-box;
   font-family: 'Orbitron', sans-serif; }
   body .card-main .form h1 {
+    display: inline;
     font-size: 3.5rem;
     text-align: center;
     padding: 0;
-    margin: 20px 10px 20px 10px;
+    margin: 20px 10px 30px 10px;
     color: #ffc918;
     display: block; }
+  @media screen and (max-width: 768px) {
+    body .card-main .form h1 {
+      font-size: calc(35px + (8/1200) * 100 * 1vw);
+      display: inline;
+      text-align: center;
+      padding-top: 150px;
+      margin: 30x 10px 30px 10px;
+      color: #ffc918;
+      display: block; } }
   body .card-main .form #formContato {
-    width: 500px;
+    background: black;
+    width: 450px;
     padding: 1em;
     margin: 0 auto;
     text-align: center;
     border: 5px solid #ffc918;
     border-radius: 1em;
     font-weight: bolder;
-    font-size: 1.6rem;
-    color: black; }
+    font-size: 1.5rem;
+    color: #ffc918; }
     body .card-main .form #formContato .nomeFormulario {
-      width: 400px; }
+      width: 400px;
+      margin-bottom: 10px; }
     body .card-main .form #formContato .emailFormulario {
-      width: 400px; }
+      width: 400px;
+      margin-bottom: 10px; }
     body .card-main .form #formContato .mensagemFormulario {
-      width: 400px; }
+      width: 400px;
+      margin-bottom: 10px; }
     body .card-main .form #formContato .button {
       padding: 20px;
       width: 400px; }
       body .card-main .form #formContato .button button {
-        color: #ffc918;
-        background: black; }
+        padding: 5px 9px;
+        border-radius: 15px;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: black;
+        background: #ffc918; }
+
+body .card-footer {
+  margin-top: 30px; }
