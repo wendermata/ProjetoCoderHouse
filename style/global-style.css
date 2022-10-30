@@ -54,11 +54,6 @@ html body {
           width: 170px;
           height: 150px;
           padding-left: 10px; }
-    html body .card .card-main .carousel-item > img {
-      width: 100vw;
-      height: 600px;
-      padding-left: 40px;
-      padding-right: 40px; }
     html body .card .card-main .card-conteudo {
       align-items: center;
       margin: 5px 40px 5px 40px; }
@@ -87,8 +82,6 @@ html body {
   @media screen and (max-width: 768px) {
     html body .card-header .row {
       justify-content: center; }
-    html body .conteiner-fluid .navbar-brand {
-      position: static; }
     html body .navbar-nav col-8 {
       width: 50%; }
     html body .navbar-nav .nav-link {
@@ -96,10 +89,4 @@ html body {
     html body .card-header {
       display: none; }
     html body .header-mobile {
-      display: ""; }
-    html body .carousel-item > img {
-      width: 100vw;
-      height: 500px;
-      padding-top: 150px;
-      padding-left: 10px;
-      padding-right: 10px; } }
+      display: ""; } }
